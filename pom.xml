@@ -33,7 +33,7 @@
     <build>
         <plugins>
 
-            <!-- Compiler Java -->
+            
             <plugin>
     <groupId>org.apache.maven.plugins</groupId>
     <artifactId>maven-compiler-plugin</artifactId>
@@ -50,8 +50,7 @@
                 <groupId>org.openjfx</groupId>
                 <artifactId>javafx-maven-plugin</artifactId>
                 <version>0.0.8</version>
-                <configuration>
-                    <!-- 🔴 CHANGE ICI -->
+                <configuration
                     <mainClass>com.example.ChronoUI</mainClass>
                 </configuration>
             </plugin>
